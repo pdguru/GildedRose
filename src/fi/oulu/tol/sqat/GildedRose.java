@@ -33,6 +33,7 @@ public class GildedRose {
         for (int i = 0; i < items.size(); i++)
         {
             Item ithItem = items.get(i);
+            //added
 			if ((!"Aged Brie".equals(ithItem.getName())) && !"Backstage passes to a TAFKAL80ETC concert".equals(ithItem.getName())) 
             {
                 if (ithItem.getQuality() > 0)
